@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Common styles for all screen sizes */
+.label1 > div {
+  position: relative;
+  right: 575px;
+  top: -450px;
+  border-radius: 50px;
+  padding: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.label2 > div {
+  position: relative;
+  right: 575px;
+  top: -165px;
+  border-radius: 50px;
+  padding: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.label3 > div {
+  position: relative;
+  right: 575px;
+  top: 115px;
+  border-radius: 50px;
+  padding: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+}
